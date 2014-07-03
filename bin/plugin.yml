@@ -1,0 +1,12 @@
+name: FearForAll
+main: com.division.fearforall.core.FearForAll
+version: 1.5.11
+description: FearForAll region system
+commands:
+   ffa:
+      description: Defines ffa region.
+      permission: fearforall.ffa
+      usage: /ffa define
+authors: [Mastershake71]
+depend: [Vault]
+softdepend: [Factions]
